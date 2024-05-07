@@ -9,10 +9,13 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
+        appBar: AppBar(
+            title: const Text("Doraemon"),
+            backgroundColor: Color.fromARGB(255, 7, 149, 232)),
+        body: const Center(
+          child: Text('Hello Israel!'),
         ),
       ),
     );
