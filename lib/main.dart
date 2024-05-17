@@ -12,11 +12,10 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-            title: const Text("Doraemon"),
-            backgroundColor: Color.fromARGB(255, 7, 149, 232)),
-        body: const Center(
-          child: Text('Hello Israel!'),
+          title: const Text("Doraemon"),
+          backgroundColor: const Color.fromARGB(255, 27, 114, 235),
         ),
+        body: const Image(image: AssetImage("images/doraemon.jpg")),
       ),
     );
   }
